@@ -9,7 +9,7 @@
     <body>
         <div class="navbar">
             <a href="../../gameloader.html" class="navbar-item">Back to game loader</a>
-            <a href="../javascript-racer-master/index.html">Javascript racer level selector</a>
+            <a href="../javascript-racer-master/index.html" class="navbar-item">Javascript racer level selector</a>
             <a href="../Scratch Loader/index.html" class="navbar-item">Scratch Games</a>
             <a href="../dosbox/Versions.html" class="navbar-item">Windows</a>
             <a href="../../Settings/index.html" class="navbar-item"><i class="fas fa-cog"></i></a>
@@ -22,13 +22,14 @@
             <option value="Resent1.8.8">Resent 1.8.8</option>
         </select>
         
-        <label for="Texture Pack">Select Texture Pack:</label>
-        <select id="Texture Pack">
+        <label for="Texture-Pack">Select Texture Pack:</label>
+        <select id="Texture-Pack">
             <option value="none">Please Select</option>
             <option Value="Vanilla">Vanilla</option>
         </select>
         
-        <button onclick="Launch()">Launch</button>
+        <button id="launchButton" onclick="Launch()">Launch</button>
         <script src="../js/script.js"></script>
+        <script src="../../../Settings/theme-switcher.js"></script>
     </body>
 </html>
