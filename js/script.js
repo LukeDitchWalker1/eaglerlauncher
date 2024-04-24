@@ -1,6 +1,6 @@
 function Launch() {
     var version = document.getElementById("version").value;
-    var texturepack = document.getElementById("Texture Pack").value;
+    var texturepack = document.getElementById("Texture-Pack").value;
 
     if (version == "none" || texturepack == "none") {
         window.alert("Please confirm your settings!");
