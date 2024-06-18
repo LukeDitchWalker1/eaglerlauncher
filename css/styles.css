@@ -256,3 +256,12 @@ body {
   .link-text {
     color: #ccc;
   }
+
+  .content-container {
+    text-align: center;
+    max-width: 600px; /* Adjust width as needed */
+    padding: 20px;
+    background-color: #f0f0f0; /* Optional: Add a background color */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Optional: Add a shadow */
+}

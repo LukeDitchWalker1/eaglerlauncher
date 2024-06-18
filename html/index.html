@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="english">
-    <head>
-        <title>EaglerX Launcher</title>
-        <link rel="stylesheet" type="text/css" href="../css/styles.css">
-        <link rel="icon" type="image/x-icon" href="../images/logo.jpg">
-        <script src="../js/http_cdnjs.cloudflare.com_ajax_libs_font-awesome_6.0.0-beta3_js_all.js"></script>
-    </head>
-    <body>
-        <div class="navbar">
-            <a href="../../gameloader.html" class="navbar-item">Back to game loader</a>
-            <a href="../javascript-racer-master/index.html" class="navbar-item">Javascript racer level selector</a>
-            <a href="../Scratch Loader/index.html" class="navbar-item">Scratch Games</a>
-            <a href="../dosbox/Versions.html" class="navbar-item">Windows</a>
-            <a href="../../Settings/index.html" class="navbar-item"><i class="fas fa-cog"></i></a>
-        </div>
+<head>
+    <title>EaglerX Launcher</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="icon" type="image/x-icon" href="../images/logo.jpg">
+    <script src="../js/http_cdnjs.cloudflare.com_ajax_libs_font-awesome_6.0.0-beta3_js_all.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <a href="../../gameloader.html" class="navbar-item">Back to game loader</a>
+        <a href="../javascript-racer-master/index.html" class="navbar-item">Javascript racer level selector</a>
+        <a href="../Scratch Loader/index.html" class="navbar-item">Scratch Games</a>
+        <a href="../dosbox/Versions.html" class="navbar-item">Windows</a>
+        <a href="../../Settings/index.html" class="navbar-item"><i class="fas fa-cog"></i></a>
+    </div>
+
+    <div class="content-container">
         <h1>Minecraft Launcher</h1>
         <label for="version">Select Minecraft Version:</label>
         <select id="version">
@@ -25,11 +27,13 @@
         <label for="Texture-Pack">Select Texture Pack:</label>
         <select id="Texture-Pack">
             <option value="none">Please Select</option>
-            <option Value="Vanilla">Vanilla</option>
+            <option value="Vanilla">Vanilla</option>
         </select>
         
         <button id="launchButton" onclick="Launch()">Launch</button>
-        <script src="../js/script.js"></script>
-        <script src="../../../Settings/theme-switcher.js"></script>
-    </body>
+    </div>
+
+    <script src="../js/script.js"></script>
+    <script src="../../../Settings/theme-switcher.js"></script>
+</body>
 </html>
